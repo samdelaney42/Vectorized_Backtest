@@ -1,6 +1,7 @@
 # Vectorized_Backtest_With_Profit_Takes
 
-   - V1: Comparing a vectorized vs looped back test of a simple moving average cross over strategy with profit taking thresholds
+   - V1: vectorized back test of a simple moving average cross over strategy with profit taking thresholds
+        - Comparison between Looped and Vectorised backtest 
 
 
    - V2: Vectorsied backtest of a basic stat arb model
@@ -11,4 +12,4 @@
    - To do: 
         - Implement stop loss at max/min Z-score
         - Try rolling orthognal regression instead of rolling OLS
-        - portfolio backtest shows that returns are dependent on which stock is set as dependent var.
+        - portfolio backtest shows that returns are dependent on which stock is set as dependent var
