@@ -6,4 +6,9 @@
    - V2: Vectorsied backtest of a basic stat arb model
         - Long and Short spread trades
         - Only natural entry / exits (z-score +- 2 and ADF < 1%)
-        - Need to implement stop loss
+   
+   
+   - To do: 
+        - Implement stop loss at max/min Z-score
+        - Try rolling orthognal regression instead of rolling OLS
+        - portfolio backtest shows that returns are dependent on which stock is set as dependent var.
