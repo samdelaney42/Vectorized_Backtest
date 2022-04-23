@@ -15,3 +15,4 @@
    
    - To do: 
         - Implement stop loss at max/min Z-score
+        - Change return calc. so initial hedge ratio at entry is used for duration of trade 
