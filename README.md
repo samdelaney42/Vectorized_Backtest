@@ -1,6 +1,6 @@
 # Vectorized Backtest
 
-   - Notebook: Basic implementation of a long / short stat-arb model with stoploss parameters 
+   - Notebook: Basic implementation of a vectorized long / short stat-arb backtest with stoploss parameters 
 
    - V1: vectorized back test of a simple moving average cross over strategy with profit taking thresholds
         - Comparison between Looped and Vectorised backtest 
