@@ -16,5 +16,4 @@
         - Easier to generate hedge ratio
    
    - To do: 
-        - Implement stop loss at max/min Z-score
         - Change return calc. so initial hedge ratio at entry is used for duration of trade, otherwise thisimplies daily rebalance which would have large             costs associated
