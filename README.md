@@ -2,6 +2,8 @@
 
 For this project backtest a simple long short stat arb stretegy using vectorization 
 
+![vector_test](https://github.com/samdelaney42/Vectorized_Backtest_With_Exit_Params/blob/main/data/images/zscore_trades.png)
+
 Additionally, I compare the back test performance of a simple moving average cross-over strategy.
 I implement this back test comparison using both loop based and vector based methods. Comparing 
 execution time of both implementations we see that the vector based method executes 50x faster
