@@ -1,5 +1,11 @@
 # Vectorized Backtest
 
+For this project backtest a simple long short stat arb stretegy using vectorization 
+
+Additionally, I compare the back test performance of a simple moving average cross-over strategy.
+I implement this back test comparison using both loop based and vector based methods. Comparing 
+execution time of both implementations we see that the vector based method executes 50x faster
+
    - Notebook: Basic implementation of a vectorized long / short stat-arb backtest with stoploss parameters 
 
    - V1: vectorized back test of a simple moving average cross over strategy with profit taking thresholds
