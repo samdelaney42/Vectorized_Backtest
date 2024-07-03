@@ -1,27 +1,13 @@
 # Vectorized Backtest
 
-For this project backtest a simple long short stat arb stretegy using vectorization 
+For this project I backtest a simple long short stat arb stretegy using vectorization.
 
 ![vector_test](https://github.com/samdelaney42/Vectorized_Backtest_With_Exit_Params/blob/main/data/images/z_score.png)
 
-Additionally, I compare the back test performance of a simple moving average cross-over strategy.
-I implement this back test comparison using both loop based and vector based methods. Comparing 
-execution time of both implementations we see that the vector based method executes 50x faster
+The simple moving average backtest, is an example of a basic strategy back tested using vectorization.
 
-   - Notebook: Basic implementation of a vectorized long / short stat-arb backtest with stoploss parameters 
+I build on that with the stat arb walkthrough and back test examples, demonstriting the implemetation of a different strategy using the same technique.
 
-   - V1: vectorized back test of a simple moving average cross over strategy with profit taking thresholds
-        - Comparison between Looped and Vectorised backtest 
+From there, I compare the execution speed of the SMA straregy using vector based and loop based implementations - we find that the vector based implementation executes 50x faster.
 
-
-   - V2: Vectorsied backtest of a basic stat arb model
-        - Long and Short spread trades
-        - Only natural entry / exits (z-score +- 2 and ADF < 1%)
-
-
-   - V3: Implemented rolling PCA (TLS regression) instead of rolling OLS
-        - Makes model agnostic to dependent vs independent variable selection 
-        - Easier to generate hedge ratio
-   
-   - To do: 
-        - Change return calc. so initial hedge ratio at entry is used for duration of trade, otherwise thisimplies daily rebalance which would have large             costs associated
+Finally, I backtest a portfolio of stock pairs, experementing with different hedge ratio calculations (OLS and TLS).
